@@ -27,7 +27,7 @@
                 <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="bGx-LG-Tq3">
                     <rect key="frame" x="20" y="94" width="374" height="32.5"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="NOME DA OFICINA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x0k-4X-9BU">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="NOME DA OFICINA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x0k-4X-9BU">
                             <rect key="frame" x="0.0" y="0.0" width="319.5" height="32.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="27"/>
                             <nil key="textColor"/>
@@ -79,14 +79,14 @@
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <stackView opaque="NO" contentMode="scaleToFill" spacing="58" translatesAutoresizingMaskIntoConstraints="NO" id="3cV-Wq-MXF">
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="58" translatesAutoresizingMaskIntoConstraints="NO" id="3cV-Wq-MXF">
                             <rect key="frame" x="28" y="104" width="318" height="31"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ov-oY-xSE">
                                     <rect key="frame" x="0.0" y="0.0" width="130" height="31"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="31" id="KcX-hf-lZ2"/>
-                                        <constraint firstAttribute="width" constant="130" id="mHM-Fu-yz3"/>
+                                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="130" id="mHM-Fu-yz3"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="filled" title="📞Ligar (1)">
@@ -99,7 +99,7 @@
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G7K-k0-ZcJ">
                                     <rect key="frame" x="188" y="0.0" width="130" height="31"/>
                                     <constraints>
-                                        <constraint firstAttribute="width" constant="130" id="Eui-kW-9Tn"/>
+                                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="130" id="Eui-kW-9Tn"/>
                                         <constraint firstAttribute="height" constant="31" id="gRf-Ab-5rq"/>
                                     </constraints>
                                     <state key="normal" title="Button"/>

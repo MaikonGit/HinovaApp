@@ -125,17 +125,25 @@
 		84A37A4227AB45C800F381B0 /* HinovaApp */ = {
 			isa = PBXGroup;
 			children = (
-				84A37A4327AB45C800F381B0 /* AppDelegate.swift */,
-				84A37A4527AB45C800F381B0 /* SceneDelegate.swift */,
-				84A37A4C27AB45CB00F381B0 /* Assets.xcassets */,
-				84A37A4E27AB45CB00F381B0 /* LaunchScreen.storyboard */,
-				84A37A5127AB45CB00F381B0 /* Info.plist */,
+				84A7020027B18A35008863AD /* AppStructure */,
 				84637E6E27ACA91100D2897E /* Model */,
 				84637E6C27ACA8DE00D2897E /* View */,
 				84637E6D27ACA90100D2897E /* Controller */,
 				84637E6F27ACA93700D2897E /* Cell */,
 			);
 			path = HinovaApp;
+			sourceTree = "<group>";
+		};
+		84A7020027B18A35008863AD /* AppStructure */ = {
+			isa = PBXGroup;
+			children = (
+				84A37A4327AB45C800F381B0 /* AppDelegate.swift */,
+				84A37A4527AB45C800F381B0 /* SceneDelegate.swift */,
+				84A37A4C27AB45CB00F381B0 /* Assets.xcassets */,
+				84A37A4E27AB45CB00F381B0 /* LaunchScreen.storyboard */,
+				84A37A5127AB45CB00F381B0 /* Info.plist */,
+			);
+			path = AppStructure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,7 +375,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A537934VM9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HinovaApp/Info.plist;
+				INFOPLIST_FILE = HinovaApp/AppStructure/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -394,7 +402,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A537934VM9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HinovaApp/Info.plist;
+				INFOPLIST_FILE = HinovaApp/AppStructure/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
