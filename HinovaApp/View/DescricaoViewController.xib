@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DescricaoViewController" customModule="HinovaApp" customModuleProvider="target">
+            <connections>
+                <outlet property="descricaoTV" destination="bTS-Yw-USb" id="gQq-ov-eCd"/>
+                <outlet property="emailLabel" destination="dHi-n4-sS2" id="mLW-Ol-f5L"/>
+                <outlet property="endereçoLabel" destination="LYi-9F-ekD" id="J1V-Gg-awG"/>
+                <outlet property="idLabel" destination="Bzr-7R-PTj" id="mka-UK-3oF"/>
+                <outlet property="infoContornoView" destination="tLQ-GA-6EC" id="k72-I3-N1y"/>
+                <outlet property="nomeOficina" destination="x0k-4X-9BU" id="6a4-QI-vYn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="bGx-LG-Tq3">
+                    <rect key="frame" x="20" y="94" width="374" height="32.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="NOME DA OFICINA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x0k-4X-9BU">
+                            <rect key="frame" x="0.0" y="0.0" width="319.5" height="32.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ID: 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bzr-7R-PTj">
+                            <rect key="frame" x="349.5" y="0.0" width="24.5" height="32.5"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTS-Yw-USb">
+                    <rect key="frame" x="20" y="146.5" width="374" height="130"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="130" id="sQl-XB-96U"/>
+                    </constraints>
+                    <string key="text">A oficina Gecar presta serviços em Betim à mais de 30 anos, mantendo sempre a qualidade, respeito e transparência com seus clientes. Atuamos na área de funilaria e pintura, garantindo sempre sua satisfação em relação aos reparos em seu veículo, seja ele, usado ou semi novo, importado ou nacional. A garantia de nossos serviços é de 3 anos, tudo para garantirmos que nossos clientes se sintam sempre tranqüilos e satisfeitos. Serviços prestados. \\n-Funilaria\\n-Pintura\\n-Limpeza geral do veículo\\n-Serviços de mecânica\\n-Revitalização de pintura (contratação à parte)</string>
+                    <color key="textColor" systemColor="labelColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tLQ-GA-6EC">
+                    <rect key="frame" x="20" y="306.5" width="374" height="150"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="📍" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A54-lH-sQB">
+                            <rect key="frame" x="8" y="8" width="358" height="24.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="📪" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8i-O3-0Zd">
+                            <rect key="frame" x="8" y="42.5" width="23" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rua Ignês Maria, 326 - Betim Industrial" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="LYi-9F-ekD">
+                            <rect key="frame" x="36" y="13" width="330" height="14.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="contato@hinovamobile.com.br" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHi-n4-sS2">
+                            <rect key="frame" x="36" y="45.5" width="330" height="14.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="58" translatesAutoresizingMaskIntoConstraints="NO" id="3cV-Wq-MXF">
+                            <rect key="frame" x="28" y="104" width="318" height="31"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ov-oY-xSE">
+                                    <rect key="frame" x="0.0" y="0.0" width="130" height="31"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="31" id="KcX-hf-lZ2"/>
+                                        <constraint firstAttribute="width" constant="130" id="mHM-Fu-yz3"/>
+                                    </constraints>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="filled" title="📞Ligar (1)">
+                                        <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                    </buttonConfiguration>
+                                    <connections>
+                                        <action selector="tel1Pressed:" destination="-1" eventType="touchUpInside" id="9L0-dT-9gN"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G7K-k0-ZcJ">
+                                    <rect key="frame" x="188" y="0.0" width="130" height="31"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="130" id="Eui-kW-9Tn"/>
+                                        <constraint firstAttribute="height" constant="31" id="gRf-Ab-5rq"/>
+                                    </constraints>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="filled" title="📞Ligar (2)">
+                                        <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                                    </buttonConfiguration>
+                                    <connections>
+                                        <action selector="tel2Pressed:" destination="-1" eventType="touchUpInside" id="ODx-d0-5PP"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="LYi-9F-ekD" firstAttribute="leading" secondItem="tLQ-GA-6EC" secondAttribute="leading" constant="36" id="3gf-u8-WzB"/>
+                        <constraint firstAttribute="trailing" secondItem="LYi-9F-ekD" secondAttribute="trailing" constant="8" id="8Tk-9Q-Kat"/>
+                        <constraint firstItem="dHi-n4-sS2" firstAttribute="leading" secondItem="K8i-O3-0Zd" secondAttribute="trailing" constant="5" id="91r-Lo-Q1y"/>
+                        <constraint firstAttribute="trailing" secondItem="dHi-n4-sS2" secondAttribute="trailing" constant="8" id="EcE-qz-rKf"/>
+                        <constraint firstItem="K8i-O3-0Zd" firstAttribute="top" secondItem="A54-lH-sQB" secondAttribute="bottom" constant="10" id="IHC-On-tk1"/>
+                        <constraint firstAttribute="trailing" secondItem="A54-lH-sQB" secondAttribute="trailing" constant="8" id="ITE-6w-qng"/>
+                        <constraint firstItem="A54-lH-sQB" firstAttribute="leading" secondItem="tLQ-GA-6EC" secondAttribute="leading" constant="8" id="N0u-wz-ouV"/>
+                        <constraint firstAttribute="height" constant="150" id="OIR-M1-QGJ"/>
+                        <constraint firstItem="K8i-O3-0Zd" firstAttribute="leading" secondItem="tLQ-GA-6EC" secondAttribute="leading" constant="8" id="X0w-zJ-G9M"/>
+                        <constraint firstItem="dHi-n4-sS2" firstAttribute="centerY" secondItem="K8i-O3-0Zd" secondAttribute="centerY" id="XaF-Ah-yEV"/>
+                        <constraint firstItem="LYi-9F-ekD" firstAttribute="centerY" secondItem="A54-lH-sQB" secondAttribute="centerY" id="YFG-yU-Ec0"/>
+                        <constraint firstItem="dHi-n4-sS2" firstAttribute="top" secondItem="A54-lH-sQB" secondAttribute="bottom" constant="13" id="bcO-tB-nDu"/>
+                        <constraint firstAttribute="trailing" secondItem="3cV-Wq-MXF" secondAttribute="trailing" constant="28" id="gRV-bb-aBf"/>
+                        <constraint firstItem="3cV-Wq-MXF" firstAttribute="leading" secondItem="tLQ-GA-6EC" secondAttribute="leading" constant="28" id="pKc-DC-iGc"/>
+                        <constraint firstAttribute="bottom" secondItem="3cV-Wq-MXF" secondAttribute="bottom" constant="15" id="q3Z-Sy-IKA"/>
+                        <constraint firstItem="LYi-9F-ekD" firstAttribute="top" secondItem="tLQ-GA-6EC" secondAttribute="top" constant="13" id="y4d-cf-zqG"/>
+                        <constraint firstItem="A54-lH-sQB" firstAttribute="top" secondItem="tLQ-GA-6EC" secondAttribute="top" constant="8" id="zfQ-Ox-lQm"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="tLQ-GA-6EC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="1iS-PC-Dxc"/>
+                <constraint firstItem="bTS-Yw-USb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="1jM-h7-aBJ"/>
+                <constraint firstItem="bGx-LG-Tq3" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Fp6-QQ-xbS"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="bTS-Yw-USb" secondAttribute="trailing" constant="20" id="Rua-U3-gzl"/>
+                <constraint firstItem="bGx-LG-Tq3" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="50" id="U8b-rR-FLm"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tLQ-GA-6EC" secondAttribute="trailing" constant="20" id="Yw8-7U-bqI"/>
+                <constraint firstItem="tLQ-GA-6EC" firstAttribute="top" secondItem="bTS-Yw-USb" secondAttribute="bottom" constant="30" id="iwt-4x-VRS"/>
+                <constraint firstItem="bTS-Yw-USb" firstAttribute="top" secondItem="bGx-LG-Tq3" secondAttribute="bottom" constant="20" id="jj7-Rq-7Sf"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="bGx-LG-Tq3" secondAttribute="trailing" constant="20" id="odq-Zh-bQh"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="90.401785714285708"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
