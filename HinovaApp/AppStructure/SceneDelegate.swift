@@ -13,7 +13,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var viewController: UIViewController?
 
         func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-            
             /// 1. Capture the scene
             guard let windowScene = (scene as? UIWindowScene) else { return }
             /// 2. Create a new UIWindow using the windowScene constructor which takes in a window scene.

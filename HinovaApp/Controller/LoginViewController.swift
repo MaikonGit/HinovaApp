@@ -45,13 +45,13 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func pesquisarBTN(_ sender: UIButton) {
         if cpfTF.text != "" && associacaoNMR != 0 {
-        guard let cpf = cpfTF.text else {return}
-        let oficinasVC = OficinasViewController()
-        oficinasVC.associacaoNMR = associacaoNMR
-        oficinasVC.cpfToFetch = cpf
-        cpfTF.endEditing(true)
-        errorMSG.text = "  "
-        navigationController?.pushViewController(oficinasVC, animated: true)
+            guard let cpf = cpfTF.text else {return}
+            let oficinasVC = OficinasViewController()
+            oficinasVC.associacaoNMR = associacaoNMR
+            oficinasVC.cpfToFetch = cpf
+            cpfTF.endEditing(true)
+            errorMSG.text = "  "
+            navigationController?.pushViewController(oficinasVC, animated: true)
         } else {
             errorMSG.text = "Selecione uma associação e digite um CPF válido."
         }
@@ -68,7 +68,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     }
 }
 
-    //MARK: - PickerView Delegate
+//MARK: - PickerView Delegate
 extension LoginViewController: UIPickerViewDelegate, UIPickerViewDataSource {
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1

@@ -11,7 +11,6 @@ protocol OficinaManagerDelegate: NSObject {
     func didUpdateOficinas(oficinas: [ListaOficinas])
 }
 
-
 struct OficinaManager {
    
     //delegate
@@ -58,7 +57,6 @@ struct OficinaManager {
         } catch {
             print(error)
             return nil
-        
         }
     }
 }
